@@ -1,38 +1,18 @@
 # Simple Interest Calculator
 
-This project is a simple Bash script that calculates simple interest.
+This project is a simple Bash script that calculates simple interest given principal, annual rate of interest, and time period in years.
 
-## Usage
+## 🧮 Input:
+- `p`: Principal amount
+- `t`: Time period in years
+- `r`: Annual rate of interest
 
-Run the script using a Unix-based terminal:
+## 📤 Output:
+- `Simple Interest = (p * t * r) / 100`
+
+## ▶️ Usage
+
+To run the script, open a terminal in a Unix-based system and enter the following command:
 
 ```bash
 bash simple-interest.sh
-
-4. Commit the file.
-
----
-
-### 🔹 **Task 4: Add CODE_OF_CONDUCT.md (2 pts)**
-**Steps:**
-1. Click “Add file” > “Create new file”.
-2. Name it: `CODE_OF_CONDUCT.md`
-3. Use GitHub’s default template: [Contributor Covenant v2.1](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)
-4. Paste and commit the content.
-
----
-
-### 🔹 **Task 5: Add CONTRIBUTING.md (2 pts)**
-**Steps:**
-1. Click “Add file” > “Create new file”.
-2. Name it: `CONTRIBUTING.md`
-3. Add basic contributing instructions. Example:
-
-```markdown
-# Contributing Guidelines
-
-1. Fork this repository.
-2. Create a new branch for each feature or fix.
-3. Test your changes before committing.
-4. Submit a Pull Request with a clear description.
-
